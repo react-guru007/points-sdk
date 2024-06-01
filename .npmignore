@@ -1,0 +1,29 @@
+# Node modules
+node_modules
+
+# TypeScript source files
+src
+
+# Build scripts and configurations
+rollup.config.js
+tsconfig.json
+
+# Test files and coverage reports
+test
+coverage
+
+# Local development environment files
+.DS_Store
+.env
+*.log
+
+# Git and version control directories
+.git
+.gitignore
+
+# Editor and IDE directories
+.vscode
+.idea
+
+# OS-specific files
+Thumbs.db
