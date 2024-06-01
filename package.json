@@ -1,0 +1,42 @@
+{
+  "name": "points-client-sdk",
+  "version": "1.0.0",
+  "description": "Typescript SDK that allows clients to issue points for their users. This gives projects the ultimate flexibility to issue points for off-chain actions.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-guru007/points-sdk.git"
+  },
+  "homepage": "https://github.com/react-guru007/points-sdk.git",
+  "keywords": [
+    "off-chain",
+    "event",
+    "points",
+    "typescript",
+    "SDK"
+  ],
+  "author": "Alexander Clark",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "eslint": "^9.4.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": "eslint --fix",
+    "./**/*.{ts,js,json,*rc}": [
+      "prettier --write"
+    ]
+  }
+}
