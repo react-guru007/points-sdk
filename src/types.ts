@@ -1,7 +1,6 @@
 export interface PointsClientConfig {
   apiKey: string;
   campaignId: string;
-  serverUrl: string;
 }
 
 export interface RegisterApiKey {
