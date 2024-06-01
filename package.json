@@ -1,8 +1,9 @@
 {
   "name": "points-client-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript SDK that allows clients to issue points for their users. This gives projects the ultimate flexibility to issue points for off-chain actions.",
   "main": "dist/index.js",
+  "types": "dist/types.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
