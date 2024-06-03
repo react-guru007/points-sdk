@@ -65,7 +65,7 @@ export class PointsClient {
   ): Promise<PointsResponse[]> {
     try {
       const response = await axios.get(
-        `${this.serverUrl}/points?address=${address}${eventName ? `event_name=${eventName}` : ''}`,
+        `${this.serverUrl}/points?address=${address}${eventName ? `&event_name=${eventName}` : ''}`,
         {
           headers: {
             api_key: this.apiKey,
